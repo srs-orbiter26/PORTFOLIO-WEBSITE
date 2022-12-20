@@ -1,0 +1,168 @@
+a {
+  margin: 10px 10px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.bottom-book {
+  position: absolute;
+  left: 100px;
+  bottom: 100px;
+  height: 60%;
+  width: 20%;
+}
+
+.bottom-container {
+  background-color: #70bfbf;
+  padding: 50px 0 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc480);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 1rem;
+  padding: 20px 0;
+}
+
+.dm {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+h1 {
+  color: #00becc;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #00becc;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #00becc;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border: dotted #abb1b1 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.intro {
+  width: 40%;
+  margin: auto;
+}
+
+.mid-book {
+  height: 50%;
+  width: 30%;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.ml {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.mypic {
+  height: 20%;
+  width: 20%;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-book {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  height: 60%;
+  width: 25%;
+}
+
+.top-container {
+  /* background-color: #fcbfc7; */
+  position: relative;
+  padding-top: 200px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.top-container::before {
+  content: "";
+  background-image: url("/images/cc.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.3;
+}
+
+.wd {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
